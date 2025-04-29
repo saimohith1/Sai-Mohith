@@ -48,9 +48,12 @@ const Hero = () => {
               <Image
                 src="/profile-placeholder.jpg"
                 alt="Bingi Sai Mohith"
-                fill
+                width={320}
+                height={320}
+                sizes="(max-width: 768px) 256px, 320px"
                 className="object-cover"
                 priority
+                quality={90}
               />
             </div>
           </motion.div>
